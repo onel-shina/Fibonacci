@@ -13,7 +13,7 @@
 |3      | 13 | 21 |
 |2      | 21 | 34 |
 |1      | 34 | 55 |
-|1      | **55** | 89 |
+|0      | **55** | 89 |
 
 ##### If we decided to do this process by hand, we would create a table like this, we would put the "n" term we want to find the Fibonacci number for at the top of our table. Next to it, we would start out "first number" at 0, and our "second number" at 1.
 ##### We will deduct "n" by one, we will make the "first number" same as the "second number" of the term before, and we will make the "second number" equal to the sum of "first number & second number of term before".
