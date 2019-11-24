@@ -24,6 +24,10 @@
 
 #### Now that you know how to calculate the Fibonacci number for n = 10!
 #### But, what if someone asked you to calculate the Fibonacci number for n = 2000? You can definitely create a table likes this and spend a few days doing it! You might get tired though, or you might make mistakes!
+<<<<<<< HEAD
 
 ### Fortunately, we can use tail recursion to do that in Java :)
+=======
+>>>>>>> 0cff1e2cfb6b09533a91d8837c850357e507ea83
 
+### Fortunately, we can use tail recursion to do that in Java :)
