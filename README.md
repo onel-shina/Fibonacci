@@ -23,9 +23,4 @@
 ##### While the "second number" of n = 4 is equal to "first number + second number" of n = 3
 ##### We will keep deducting 1 from "n" until "n" becomes 0, while calculating "first number" and "second number". When "n" is equal to 0, the "first number" will represent the Fibonacci number for the "n" we started at.
 
-#### Now that you know how to calculate the Fibonacci number for n = 10!
-#### But, what if someone asked you to calculate the Fibonacci number for n = 2000? You can definitely create a table likes this and spend a few days doing it! You might get tired though, or you might make mistakes!
-
-
-### Fortunately, we can use tail recursion to do that in Java :)
 
