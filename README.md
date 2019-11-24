@@ -1,5 +1,5 @@
 # Using Tail Recursion to find N-th Fibonacci number:
-### let's assume we wanted to find fibonacci number for n = 0
+### let's assume we wanted to find fibonacci number for n = 10
 
 | N        | First Number           | Second Number  |
 | ------------- |:-------------:| -----:|
