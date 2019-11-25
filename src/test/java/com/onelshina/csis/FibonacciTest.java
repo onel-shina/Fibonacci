@@ -8,9 +8,9 @@ public class FibonacciTest {
 
     @Test
     public void calcFib() {
-        /*/
-        Expected (known) fibonacci numbers for n-th term based on https://oeis.org/A000045/b000045.txt
-         */
+        /*
+        * Expected (known) fibonacci numbers for n-th term based on https://oeis.org/A000045/b000045.txt
+        */
         final String EXPECTED_0 = "0";
         final String EXPECTED_1 = "1";
         final String EXPECTED_2 = "1";
