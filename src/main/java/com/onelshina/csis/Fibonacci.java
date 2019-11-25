@@ -52,7 +52,7 @@ public class Fibonacci {
         if (n == 0) { //Base Case
             return new String[]{String.valueOf(first), String.valueOf(count)};
         } else {
-            return calcFibAux(--n, second, first.add(second), ++count);
+            return calcFibAux(n - 1, second, first.add(second), count + 1);
         }
     }
 }
