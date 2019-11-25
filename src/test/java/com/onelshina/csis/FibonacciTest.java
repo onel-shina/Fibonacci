@@ -27,6 +27,7 @@ public class FibonacciTest {
         assertEquals(EXPECTED_500, Fibonacci.calcFib(500)[0]);
         assertEquals(EXPECTED_2000, Fibonacci.calcFib(2000)[0]);
 
+
         /* We expect that it would take 200 recursive calls to calculate the fibonacci number for 200
         * Which is the number of subtraction required to reduce n = 200 to the base case which is n = 0
         */
