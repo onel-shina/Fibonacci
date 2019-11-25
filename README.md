@@ -19,8 +19,8 @@
 ##### We will deduct "n" by one, we will make the "first number" equal to the "second number" of the term before, and we will make the "second number" equal to the sum of "first number & second number of term before".
 
 ##### Now try to look at the table and notice the pattern yourself
-##### For example if we look at n = 4, "first number" of n = 4 is equal to the "second number" of n = 3
-##### While the "second number" of n = 4 is equal to "first number + second number" of n = 3
+##### For example if we look at n = 4, "first number" of n = 4 is equal to the "second number" of n = 5
+##### While the "second number" of n = 4 is equal to "first number + second number" of n = 5
 ##### We will keep deducting 1 from "n" until "n" becomes 0, while calculating "first number" and "second number". When "n" is equal to 0, the "first number" will represent the Fibonacci number for the "n" we started at.
 
 
