@@ -9,7 +9,7 @@ public class FibonacciTest {
     @Test
     public void calcFib() {
         /*/
-        Expected (known) fibonacci numbers for nth term based on https://oeis.org/A000045/b000045.txt
+        Expected (known) fibonacci numbers for n-th term based on https://oeis.org/A000045/b000045.txt
          */
         final String EXPECTED_0 = "0";
         final String EXPECTED_1 = "1";
@@ -28,7 +28,7 @@ public class FibonacciTest {
         assertEquals(EXPECTED_2000, Fibonacci.calcFib(2000)[0]);
 
         /* We expect that it would take 200 recursive calls to calculate the fibonacci number for 200
-        * Which is the number of subtraction required to reduce 200 to the basecase which is 0
+        * Which is the number of subtraction required to reduce n = 200 to the base case which is n = 0
         */
         assertEquals("200", Fibonacci.calcFib(200)[1]);
 

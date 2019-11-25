@@ -6,7 +6,7 @@ public class Fibonacci {
     public static void main(String[] args) {
         long startingTime = System.currentTimeMillis();
         long n = 2000; //Change this number to get the Fibonacci number you want
-        String[] result = calcFib(n);
+        String[] result = calcFib(n); //Index = 0 : Fibonacci Number, Index = 1 : How many times recursive method was called
         String fibonacciNumber = result[0];
         String count = result[1];
         long elapsedTime = System.currentTimeMillis() - startingTime;
@@ -24,7 +24,6 @@ public class Fibonacci {
      * @param n {@link long} The number we want to find the Fibonacci Number for
      * @return {@link String[]} index 0: Fibonacci number, index 1: count (how many times recursion method was called)
      */
-
     protected static String[] calcFib(long n) {
         BigInteger[] fibonacciAndCount = calcFibAux(BigInteger.valueOf(n), BigInteger.ZERO, BigInteger.ONE, BigInteger.ZERO);
         String fibNum = String.valueOf(fibonacciAndCount[0]);
