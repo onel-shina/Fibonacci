@@ -33,21 +33,7 @@ public class Fibonacci {
        return calcFibAux(n, BigInteger.ZERO, BigInteger.ONE, 0);
     }
 
-    /**
-     * Called by {@link #calcFib(long)}
-     * @param n : represents the number that we want to find the Fibonacci Number for
-     *          if it's not 0 (base case), the it's reduced by 1 before the recursion call
-     *
-     * @param first: starts at 0 as passed by {@link #calcFib(long)}
-     *             in recursive calls, second is passed as an argument for first.
-     * @param second: starts at 0 as passed by {@link #calcFib(long)}
-     *             in recursive calls, (second + first) is passed as an argument for second.
-     * @param count: starts at 0, it's incremented by 1 before each recursive call to count how
-     *             many times the recursion method was called
-     *
-     * @return {@link String[]} (index = 0: Fibonacci number
-     *      * index = 1: count "how many times recursion method was called")
-     */
+
     private static String[] calcFibAux(long n, BigInteger first, BigInteger second, long count) {
         if (n == 0) { //Base Case
             return new String[]{String.valueOf(first), String.valueOf(count)};
